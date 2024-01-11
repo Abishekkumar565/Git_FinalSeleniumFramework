@@ -41,7 +41,7 @@ public class CreateContactTest extends BaseClass{
 		CreateNewContactPage cncp = new CreateNewContactPage(driver);
 		cncp.createNewContact(LASTNAME);
 
-       // Assert.fail();
+      // Assert.fail();
 		// Step 7: Validate
 		ContactInfoPage cip = new ContactInfoPage(driver);
 		String contactHeader = cip.captureHeadertext();
